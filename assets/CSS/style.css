@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,400;1,600;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;1,500;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+#cabecalho h1 {
+  background-color: #202030;
+  color: #ffffff;
+  margin: 0;
+  padding: 2.5rem;
+  text-align: center;
+  text-
+}
+
+#corpo {
+  background: #b0a990;
+  padding-bottom: 4%;
+}
+
+@media screen and (max-width: 900px) {
+  #corpo article {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+#corpo article {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5%;
+  height: 400px;
+}
+
+#sessaoBtn {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.75rem;
+}
+
+@media screen and (max-width:400px){
+
+  #corpo article #imagen{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 350px;
+    object-fit: scale-down;
+  }
+}
+
+@media screen and (max-width:350px){
+
+  #corpo article #imagen{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 250px;
+    object-fit: scale-down;
+  }
+}
+
+#imagen {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+#sessaoBtn button {
+  color: antiquewhite;
+  background-color: #39304a;
+  border-radius: 1.5rem;
+  border: none;
+  height: 3.5rem;
+  width: 6rem;
+}
+
+#sessaoBtn button:hover {
+  background-color: red;
+  transition: 0.25s;
+  border: solid black;
+  cursor: pointer;
+}
+
+#rodaPe {
+  background: black;
+  color: wheat;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+}
